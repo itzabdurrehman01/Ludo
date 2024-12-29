@@ -43,7 +43,7 @@ class _MainScreenState extends State<MainScreen> {
                           const Text("Thank you for playing 😙", style: TextStyle(color: Colors.white, fontSize: 20), textAlign: TextAlign.center),
                           Text("The Winners is: ${value.winners.map((e) => e.name.toUpperCase()).join(", ")}", style: const TextStyle(color: Colors.white, fontSize: 30), textAlign: TextAlign.center),
                           const Divider(color: Colors.white),
-                          const Text("This game made with Flutter ❤️ by Mochamad Nizwar Syafuan", style: TextStyle(color: Colors.white, fontSize: 15), textAlign: TextAlign.center),
+                          const Text("This game made with Flutter ❤️ ", style: TextStyle(color: Colors.white, fontSize: 15), textAlign: TextAlign.center),
                           const SizedBox(height: 20),
                           const Text("Refresh your browser to play again", style: TextStyle(color: Colors.white, fontSize: 10), textAlign: TextAlign.center),
                         ],
